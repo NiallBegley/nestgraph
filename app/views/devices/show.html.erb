@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Device:</strong>
+  <%= @device.device_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @device.name %>
+</p>
+
+<p>
+  <strong>Name long:</strong>
+  <%= @device.name_long %>
+</p>
+
+<p>
+  <strong>Is online:</strong>
+  <%= @device.is_online %>
+</p>
+
+<p>
+  <strong>Can cool:</strong>
+  <%= @device.can_cool %>
+</p>
+
+<p>
+  <strong>Can heat:</strong>
+  <%= @device.can_heat %>
+</p>
+
+<p>
+  <strong>Last connection:</strong>
+  <%= @device.last_connection %>
+</p>
+
+<%= link_to 'Edit', edit_device_path(@device) %> |
+<%= link_to 'Back', devices_path %>

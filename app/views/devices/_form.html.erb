@@ -1,0 +1,52 @@
+<%= form_with(model: device, local: true) do |form| %>
+  <% if device.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(device.errors.count, "error") %> prohibited this device from being saved:</h2>
+
+      <ul>
+      <% device.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :device_id %>
+    <%= form.text_field :device_id, id: :device_device_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :device_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name_long %>
+    <%= form.text_field :name_long, id: :device_name_long %>
+  </div>
+
+  <div class="field">
+    <%= form.label :is_online %>
+    <%= form.check_box :is_online, id: :device_is_online %>
+  </div>
+
+  <div class="field">
+    <%= form.label :can_cool %>
+    <%= form.check_box :can_cool, id: :device_can_cool %>
+  </div>
+
+  <div class="field">
+    <%= form.label :can_heat %>
+    <%= form.check_box :can_heat, id: :device_can_heat %>
+  </div>
+
+  <div class="field">
+    <%= form.label :last_connection %>
+    <%= form.date_select :last_connection, id: :device_last_connection %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

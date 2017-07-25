@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  internal_temp: 1.5
+  external_temp: 1.5
+  nest_temp: 1.5
+  nest_temp_high: 1.5
+  nest_temp_low: 1.5
+
+two:
+  internal_temp: 1.5
+  external_temp: 1.5
+  nest_temp: 1.5
+  nest_temp_high: 1.5
+  nest_temp_low: 1.5

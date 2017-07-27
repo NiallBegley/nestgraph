@@ -26,6 +26,8 @@ class DevicesController < ApplicationController
                                  can_cool: data.get("can_cool"))
       #end
     end
+
+    redirect_to devices_path
   end
 
   # GET /devices/1

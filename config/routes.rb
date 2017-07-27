@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  resources :devices
-  resources :records do
+  resources :records
+  resources :devices do
     collection do
-      get "discover_thermostats"
+      get "refresh"
     end
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

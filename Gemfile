@@ -28,7 +28,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'nest_thermostat'
 gem 'awesome_print'
-gem 'nest_api'
+gem 'nest_api', :git => 'https://github.com/NiallBegley/nest_api.git'
+
 gem 'dotenv-rails'
 gem 'forecast_io'
 gem "chartkick"

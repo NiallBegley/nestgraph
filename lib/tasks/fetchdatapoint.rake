@@ -25,7 +25,7 @@ namespace :nestgraphing do
     @auth_code = JSON.parse(File.read(@file))
 
     puts @auth_code
-    
+
     File.open(NestApi::CONFIG_FILE, "w") { |file| file.write(result.to_json) }
 
   end

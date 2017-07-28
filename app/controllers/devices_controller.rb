@@ -11,6 +11,8 @@ class DevicesController < ApplicationController
   def refresh
     nest = NestApi::Api.new
 
+    ap nest
+
     @remotedevices   =  nest.get_thermostat_list
 
     @remotedevices.each do |device|

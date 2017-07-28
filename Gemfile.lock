@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/NiallBegley/nest_api.git
+  revision: c87795802f51ca9e3bccaf5d247283337f69953c
+  specs:
+    nest_api (0.0.1)
+      httparty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -111,8 +118,6 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     mysql2 (0.4.8)
-    nest_api (0.0.2)
-      httparty
     nest_thermostat (0.0.4)
       httparty (~> 0.8.3)
     nio4r (2.1.0)
@@ -215,7 +220,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mysql2 (>= 0.3.18, < 0.5)
-  nest_api
+  nest_api!
   nest_thermostat
   puma (~> 3.7)
   rails (~> 5.1.2)

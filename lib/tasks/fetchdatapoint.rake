@@ -12,7 +12,7 @@ namespace :nestgraphing do
     puts "Go:"
     pin = STDIN.gets.strip
 
-    HTTParty.post("#{NestApi::TOKEN_URL}", query: {
+    result = HTTParty.post("#{NestApi::TOKEN_URL}", query: {
         code: pin,
         client_id: ENV['NEST_PRODUCT_ID'],
         client_secret: ENV['NEST_PRODUCT_SECRET'],

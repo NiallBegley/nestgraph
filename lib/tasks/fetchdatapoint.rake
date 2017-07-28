@@ -19,6 +19,8 @@ namespace :nestgraphing do
         grant_type: 'authorization_code'
     })
 
+    puts result
+    
     File.open(NestApi::CONFIG_FILE, "w") { |file| file.write(result.to_json) }
 
   end

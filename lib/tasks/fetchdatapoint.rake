@@ -6,4 +6,10 @@ namespace :nestgraphing do
       device.create_new_record
     end
   end
+
+  task providecredentials: :environment do
+    nest = NestApi::Api.new
+
+    @remotedevices   =  nest.get_thermostat_list
+  end
 end

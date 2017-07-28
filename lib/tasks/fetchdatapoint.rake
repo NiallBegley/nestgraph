@@ -11,7 +11,7 @@ namespace :nestgraphing do
 
     puts "Go:"
     pin = STDIN.gets.strip
-    
+
     HTTParty.post("#{NestApi::TOKEN_URL}", query: {
         code: pin,
         client_id: ENV['NEST_PRODUCT_ID'],
@@ -19,7 +19,7 @@ namespace :nestgraphing do
         grant_type: 'authorization_code'
     })
 
-    File.open(@file, "w") { |file| file.write(result.to_json) }
+    File.open(NestApi::CONFIG_FILE, "w") { |file| file.write(result.to_json) }
 
   end
 end

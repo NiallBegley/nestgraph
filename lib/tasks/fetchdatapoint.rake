@@ -8,8 +8,18 @@ namespace :nestgraphing do
   end
 
   task providecredentials: :environment do
-    nest = NestApi::Api.new
 
-    @remotedevices   =  nest.get_thermostat_list
+    puts "Go:"
+    pin = STDIN.gets.strip
+    
+    HTTParty.post("#{NestApi::TOKEN_URL}", query: {
+        code: pin,
+        client_id: ENV['NEST_PRODUCT_ID'],
+        client_secret: ENV['NEST_PRODUCT_SECRET'],
+        grant_type: 'authorization_code'
+    })
+
+    File.open(@file, "w") { |file| file.write(result.to_json) }
+
   end
 end

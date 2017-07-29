@@ -1,0 +1,22 @@
+%p#notice= notice
+%p
+  %strong Internal temp:
+  = @record.internal_temp
+%p
+  %strong External temp:
+  = @record.external_temp
+%p
+  %strong Nest temp:
+  = @record.nest_temp
+%p
+  %strong Nest temp high:
+  = @record.nest_temp_high
+%p
+  %strong Nest temp low:
+  = @record.nest_temp_low
+%p
+  %strong Current Humidity:
+  = @record.humidity
+= link_to 'Edit', edit_record_path(@record)
+|
+= link_to 'Back', records_path

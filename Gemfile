@@ -36,6 +36,7 @@ gem "chartkick"
 gem "groupdate"
 
 gem 'bootstrap-sass'
+gem 'haml'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'

@@ -1,0 +1,30 @@
+%p#notice= notice
+%h1 Devices
+%table.table-bordered.table-hover{:style => "margin: 20px;"}
+  %thead
+    %tr
+      %th Name
+      %th Name long
+      %th Is online
+      %th Can cool
+      %th Can heat
+      %th Last connection
+      %th{:colspan => "3"}
+  %tbody
+    - @devices.each do |device|
+      %tr
+        %td= device.name
+        %td= device.name_long
+        %td= device.is_online
+        %td= device.can_cool
+        %td= device.can_heat
+        %td= device.last_connection
+        %td= link_to 'Show', records_path(:device_id => device.device_id, :device_name => device.name_long)
+        %td= link_to 'Destroy', device, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'Refresh Device List', refresh_devices_path
+
+:css
+  .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    padding: 12px;
+  }

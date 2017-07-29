@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "devices#index"
   resources :records
   resources :devices do
     collection do

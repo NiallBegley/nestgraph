@@ -1,0 +1,26 @@
+= form_with(model: record, local: true) do |form|
+  - if record.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(record.errors.count, "error")
+        prohibited this record from being saved:
+      %ul
+        - record.errors.full_messages.each do |message|
+          %li= message
+  .field
+    = form.label :internal_temp
+    = form.text_field :internal_temp, id: :record_internal_temp
+  .field
+    = form.label :external_temp
+    = form.text_field :external_temp, id: :record_external_temp
+  .field
+    = form.label :nest_temp
+    = form.text_field :nest_temp, id: :record_nest_temp
+  .field
+    = form.label :nest_temp_high
+    = form.text_field :nest_temp_high, id: :record_nest_temp_high
+  .field
+    = form.label :nest_temp_low
+    = form.text_field :nest_temp_low, id: :record_nest_temp_low
+  .actions
+    = form.submit

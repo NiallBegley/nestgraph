@@ -1,0 +1,9 @@
+%p#notice= notice
+
+= link_to '<div class="glyphicon glyphicon-chevron-left"></div> Back to devices'.html_safe,  devices_path
+
+%h1
+  = @device_name
+
+%br/
+= line_chart @data, min: 50, max:100

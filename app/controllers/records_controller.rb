@@ -9,6 +9,8 @@ class RecordsController < ApplicationController
   def index
     @records = Record.where(device_id: params[:device_id])
 
+    @device_name = params[:device_name]
+
     @data = [
       {name: "Internal Temperature", data: @records.group(:created_at).maximum(:internal_temp)},
       {name: "External Temperature", data: @records.group(:created_at).maximum(:external_temp)},

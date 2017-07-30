@@ -5,5 +5,55 @@
 %h1
   = @device_name
 
+- buttonclass = "btn btn-sm btn-primary"
+- selectedclass = buttonclass + " active"
+= link_to "Today", records_path(:filter => "today", :device_id => @device_id), :class => @selected_filter == "today" ? selectedclass : buttonclass
+= link_to "Yesterday", records_path(:filter => "yesterday", :device_id => @device_id), :class => @selected_filter == "yesterday" ? selectedclass : buttonclass
+= link_to "Running Week", records_path(:filter => "week", :device_id => @device_id), :class => @selected_filter == "week" ? selectedclass : buttonclass
+= link_to "All", records_path(:filter => "all", :device_id => @device_id), :class => @selected_filter == "all" ? selectedclass : buttonclass
+#custombtn{:class => @selected_filter == "custom" ? selectedclass : buttonclass}
+  Custom
+
+.custom_range{:style => "display:none;margin-top:10px;"}
+  %input.datepickerstart{:placeholder => "Start Date"}
+  %input.datepickerend{:placeholder => "End Date"}
+  = link_to "Apply", records_path(:filter => "custom", :device_id => @device_id), :class => buttonclass
+
+
 %br/
 = line_chart @data, min: 50, max:100
+
+
+:javascript
+   $('.datepickerstart').pickadate({
+    onSet: function(context) {
+      console.log(context);
+    }
+  });
+
+  $('.datepickerend').pickadate({
+    onSet: function(context) {
+      console.log(context);
+    }
+  });
+
+  $("#custombtn").click(function(){
+    if($(".custom_range").css('display') == "none")
+    {
+      $('.custom_range').show();
+    }
+    else
+    {
+      $('.custom_range').hide();
+    }
+  });
+
+:css
+  .table-padded>tbody>tr>td, .table-padded>tbody>tr>th, .table-padded>tfoot>tr>td, .table-padded>tfoot>tr>th, .table-padded>thead>tr>td, .table-padded>thead>tr>th {
+    padding: 12px;
+  }
+
+  .button_to {
+    float:left;
+    margin: 0 8px 0 8px;
+  }

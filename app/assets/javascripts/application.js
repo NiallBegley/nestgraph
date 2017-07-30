@@ -15,3 +15,7 @@
 //= require_tree .
 //= require chartkick
 //= require bootstrap-sprockets
+//= require jquery
+//= require jquery_ujs
+//= require pickadate/picker
+//= require pickadate/picker.date

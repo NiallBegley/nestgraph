@@ -15,9 +15,12 @@
   Custom
 
 .custom_range{:style => "display:none;margin-top:10px;"}
-  %input.datepickerstart{:placeholder => "Start Date"}
-  %input.datepickerend{:placeholder => "End Date"}
-  = link_to "Apply", records_path(:filter => "custom", :device_id => @device_id), :class => buttonclass
+  = form_tag(records_path, :method => "get") do
+    = text_field_tag :start, "Start Date",class: "datepickerstart"
+    = text_field_tag :end, "End Date",class: "datepickerend"
+    = hidden_field_tag :device_id, @device_id
+    = hidden_field_tag :filter, "custom"
+    = submit_tag "Apply", :class => buttonclass
 
 
 %br/

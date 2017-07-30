@@ -11,19 +11,25 @@ class RecordsController < ApplicationController
 
     partial_records = Record.where(device_id: params[:device_id])
     if params[:filter].nil? || params[:filter].empty? || params[:filter] == "today"
-      @records = partial_records.where("created_at >= ?", DateTime.now.in_time_zone(Time.zone).beginning_of_day)
+      @records = partial_records.where("created_at >= ?", DateTime.now.beginning_of_day)
       @selected_filter = "today"
     elsif params[:filter] == "yesterday"
       @selected_filter = "yesterday"
       @records = partial_records.where("created_at >= ? and created_at <= ?",
-          DateTime.yesterday.in_time_zone(Time.zone).beginning_of_day,
-              DateTime.yesterday.in_time_zone(Time.zone).end_of_day)
+          DateTime.yesterday.beginning_of_day,
+              DateTime.yesterday.end_of_day)
     elsif params[:filter] == "week"
       @selected_filter = "week"
-      @records = partial_records.where("created_at >= ?", DateTime.now.in_time_zone(Time.zone) - 7.days)
+      @records = partial_records.where("created_at >= ?", DateTime.now - 7.days)
     elsif params[:filter] == "all"
       @selected_filter = "all"
       @records = partial_records
+    elsif params[:filter] == "custom"
+      @selected_filter = "custom"
+      puts DateTime.parse(params[:start]).beginning_of_day
+      @records = partial_records.where("created_at >= ? and created_at <= ?",
+                                       DateTime.parse(params[:start]).beginning_of_day,
+                                       DateTime.parse(params[:end]).end_of_day)
     end
 
     @device_name = params[:device_name]

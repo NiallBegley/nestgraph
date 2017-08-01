@@ -14,10 +14,10 @@
 #custombtn{:class => @selected_filter == "custom" ? selectedclass : buttonclass}
   Custom
 
-.custom_range{:style => "display:none;margin-top:10px;"}
+.custom_range{:style => "margin-top:10px;display:" + (@selected_filter == "custom" ? "inline" : "none")}
   = form_tag(records_path, :method => "get") do
-    = text_field_tag :start, "Start Date",class: "datepickerstart"
-    = text_field_tag :end, "End Date",class: "datepickerend"
+    = text_field_tag :start, params[:start].nil? ? "Start Date" : params[:start],class: "datepickerstart"
+    = text_field_tag :end, params[:end].nil? ? "End Date" : params[:end],class: "datepickerend"
     = hidden_field_tag :device_id, @device_id
     = hidden_field_tag :filter, "custom"
     = submit_tag "Apply", :class => buttonclass

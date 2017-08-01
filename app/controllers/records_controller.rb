@@ -26,10 +26,11 @@ class RecordsController < ApplicationController
       @records = partial_records
     elsif params[:filter] == "custom"
       @selected_filter = "custom"
-      puts DateTime.parse(params[:start]).beginning_of_day
       @records = partial_records.where("created_at >= ? and created_at <= ?",
                                        DateTime.parse(params[:start]).beginning_of_day,
                                        DateTime.parse(params[:end]).end_of_day)
+      @start_date = params[:start]
+      @end_date = params[:end]
     end
 
     @device_name = params[:device_name]
@@ -37,8 +38,13 @@ class RecordsController < ApplicationController
     @data = [
       {name: "Internal Temperature", data: @records.group(:created_at).maximum(:internal_temp)},
       {name: "External Temperature", data: @records.group(:created_at).maximum(:external_temp)},
-      {name: "Humidity", data: @records.group(:created_at).maximum(:humidity)}
+      {name: "Int. Humidity", data: @records.group(:created_at).maximum(:humidity)},
+      {name: "Ext. Humidity", data: @records.group(:created_at).maximum(:external_humidity)},
+      {name: "Time to Target", data: @records.group(:created_at).maximum(:time_to_target)}
     ]
+
+    #,
+    #{name: "Heating On", data: @records.group(:created_at).where(:hvac_state => "heating").select(:hvac_state)}
 
   end
 

@@ -19,6 +19,8 @@ class Device < ApplicationRecord
     forecast = ForecastIO.forecast(ENV['FORECAST_IO_LATITUDE'].to_f, ENV['FORECAST_IO_LONGITUDE'].to_f)
     record.external_temp = forecast["currently"]["temperature"]
 
+    record.external_humidity = forecast["currently"]["humidity"] * 100
+
     record.save
   end
   #has_many :records

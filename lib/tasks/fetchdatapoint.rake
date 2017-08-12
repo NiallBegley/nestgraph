@@ -29,4 +29,9 @@ namespace :nestgraphing do
     File.open(NestApi::CONFIG_FILE, "w") { |file| file.write(result.to_json) }
 
   end
-end
+
+  task deleteoldrecords: :environment do
+    Record.where("created_at <= ?", Time.zone.now - 7.days).destroy_all
+  end
+
+  end

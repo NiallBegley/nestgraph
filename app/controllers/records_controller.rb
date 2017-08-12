@@ -1,5 +1,7 @@
 class RecordsController < ApplicationController
   before_action :set_record, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
+
   require 'nest_api'
   require 'awesome_print' # gem install awesome_print
   require 'forecast_io'

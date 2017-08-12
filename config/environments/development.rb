@@ -55,4 +55,6 @@ Rails.application.configure do
   ForecastIO.configure do |configuration|
     configuration.api_key = ENV["FORECAST_IO_SECRET"]
   end
+
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end

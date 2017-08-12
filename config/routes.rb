@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users, controllers: { registrations: "registrations"}
   root "devices#index"
   resources :records
   resources :devices do

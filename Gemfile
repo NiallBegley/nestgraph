@@ -39,6 +39,7 @@ gem 'bootstrap-sass'
 gem 'haml'
 gem 'pickadate-rails'
 gem 'jquery-rails'
+gem 'devise'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'

@@ -11,29 +11,34 @@ class RecordsController < ApplicationController
 
     partial_records = Record.where(device_id: params[:device_id])
     if params[:filter].nil? || params[:filter].empty? || params[:filter] == "today"
-      @records = partial_records.where("created_at >= ?", DateTime.now.beginning_of_day)
+      @records = partial_records.where("created_at >= ?", Time.zone.now.beginning_of_day)
       @selected_filter = "today"
     elsif params[:filter] == "yesterday"
       @selected_filter = "yesterday"
       @records = partial_records.where("created_at >= ? and created_at <= ?",
-          DateTime.yesterday.beginning_of_day,
-              DateTime.yesterday.end_of_day)
+                                       Time.zone.yesterday.beginning_of_day,
+                                       Time.zone.yesterday.end_of_day)
     elsif params[:filter] == "week"
       @selected_filter = "week"
-      @records = partial_records.where("created_at >= ?", DateTime.now - 7.days)
+      @records = partial_records.where("created_at >= ?", Time.zone.now - 7.days)
     elsif params[:filter] == "all"
       @selected_filter = "all"
       @records = partial_records
     elsif params[:filter] == "custom"
       @selected_filter = "custom"
       @records = partial_records.where("created_at >= ? and created_at <= ?",
-                                       DateTime.parse(params[:start]).beginning_of_day,
-                                       DateTime.parse(params[:end]).end_of_day)
+                                       Time.zone.parse(params[:start]).beginning_of_day,
+                                       Time.zone.parse(params[:end]).end_of_day)
       @start_date = params[:start]
       @end_date = params[:end]
     end
 
     @device_name = params[:device_name]
+    if @device_name.nil?
+      @device_name = Device.where(:device_id => @device_id).first.name_long
+    end
+    @max = [@records.maximum(:internal_temp), @records.maximum(:external_temp), @records.maximum(:humidity), @records.maximum(:external_humidity)].max
+    @min = [@records.minimum(:internal_temp), @records.minimum(:external_temp), @records.minimum(:humidity), @records.minimum(:external_humidity)].min
 
     @data = [
       {name: "Internal Temperature", data: @records.group(:created_at).maximum(:internal_temp)},

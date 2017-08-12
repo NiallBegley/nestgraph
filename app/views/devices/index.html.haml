@@ -5,20 +5,16 @@
     %tr
       %th Name
       %th Name long
-      %th Is online
       %th Can cool
       %th Can heat
-      %th Last connection
       %th{:colspan => "3"}
   %tbody
     - @devices.each do |device|
       %tr
         %td= device.name
         %td= device.name_long
-        %td= device.is_online
         %td= device.can_cool
         %td= device.can_heat
-        %td= device.last_connection
         %td= link_to 'Show', records_path(:device_id => device.device_id, :device_name => device.name_long)
         %td= link_to 'Destroy', device, method: :delete, data: { confirm: 'Are you sure?' }
 %br/

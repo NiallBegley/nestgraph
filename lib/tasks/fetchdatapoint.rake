@@ -9,7 +9,7 @@ namespace :nestgraphing do
 
   task providecredentials: :environment do
 
-    puts "Go:"
+    puts "Please generate a pin code at #{NestApi::AUTH_URL}#{ENV.fetch("NEST_PRODUCT_ID")} and enter it here:"
     pin = STDIN.gets.strip
 
     result = HTTParty.post("#{NestApi::TOKEN_URL}", query: {
@@ -18,15 +18,9 @@ namespace :nestgraphing do
         client_secret: ENV['NEST_PRODUCT_SECRET'],
         grant_type: 'authorization_code'
     })
+ 
 
-    puts result
-    puts NestApi::CONFIG_FILE
-
-    @auth_code = JSON.parse(File.read(@file))
-
-    puts @auth_code
-
-    File.open(NestApi::CONFIG_FILE, "w") { |file| file.write(result.to_json) }
+    puts "Place this code in your NEST_API_AUTH_TOKEN env variable and restart server:\n" + result["access_token"]
 
   end
 

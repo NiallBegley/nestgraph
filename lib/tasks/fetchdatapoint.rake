@@ -18,7 +18,7 @@ namespace :nestgraphing do
         client_secret: ENV['NEST_PRODUCT_SECRET'],
         grant_type: 'authorization_code'
     })
- 
+
 
     puts "Place this code in your NEST_API_AUTH_TOKEN env variable and restart server:\n" + result["access_token"]
 

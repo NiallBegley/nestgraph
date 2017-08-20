@@ -18,3 +18,7 @@
 @import "pickadate/default.date";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body { padding-bottom: 70px; }
+
+.navbar { font-size: smaller;}

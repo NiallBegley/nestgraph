@@ -2,7 +2,7 @@
 
 This is a quick Ruby on Rails application that tracks your Nest Thermostats and (currently) graphs interal/external temperatures, internal/external humidity levels, and "time to target" information.  What follows is a brief guide on how to get this up and running.  This guide is written assuming the developer has a limited amount of experience with Ruby on Rails.
 
-![Screenshot](screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/NiallBegley/nestgraph/master/screenshot.png)
 
 ----------
 

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170812190403) do
+ActiveRecord::Schema.define(version: 20181210122644) do
 
   create_table "devices", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "device_id"
@@ -32,12 +32,12 @@ ActiveRecord::Schema.define(version: 20170812190403) do
     t.float "nest_temp_low", limit: 24
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "hvac_state"
     t.float "humidity", limit: 24
     t.string "name"
     t.string "device_id"
     t.string "time_to_target"
     t.float "external_humidity", limit: 24, default: 0.0
+    t.float "is_heating", limit: 24, default: 0.0
   end
 
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|

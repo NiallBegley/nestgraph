@@ -1,0 +1,1125 @@
+Gem actioncable-5.1.1
+  actionpack (= 5.1.1)
+  nio4r (~> 2.0)
+  websocket-driver (~> 0.6.1)
+
+Gem actioncable-5.1.2
+  actionpack (= 5.1.2)
+  nio4r (~> 2.0)
+  websocket-driver (~> 0.6.1)
+
+Gem actioncable-5.1.4
+  actionpack (= 5.1.4)
+  nio4r (~> 2.0)
+  websocket-driver (~> 0.6.1)
+
+Gem actionmailer-5.1.1
+  actionpack (= 5.1.1)
+  actionview (= 5.1.1)
+  activejob (= 5.1.1)
+  mail (>= 2.5.4, ~> 2.5)
+  rails-dom-testing (~> 2.0)
+
+Gem actionmailer-5.1.2
+  actionpack (= 5.1.2)
+  actionview (= 5.1.2)
+  activejob (= 5.1.2)
+  mail (>= 2.5.4, ~> 2.5)
+  rails-dom-testing (~> 2.0)
+
+Gem actionmailer-5.1.4
+  actionpack (= 5.1.4)
+  actionview (= 5.1.4)
+  activejob (= 5.1.4)
+  mail (>= 2.5.4, ~> 2.5)
+  rails-dom-testing (~> 2.0)
+
+Gem actionpack-5.1.1
+  actionview (= 5.1.1)
+  activemodel (= 5.1.1, development)
+  activesupport (= 5.1.1)
+  rack (~> 2.0)
+  rack-test (~> 0.6.3)
+  rails-dom-testing (~> 2.0)
+  rails-html-sanitizer (>= 1.0.2, ~> 1.0)
+
+Gem actionpack-5.1.2
+  actionview (= 5.1.2)
+  activemodel (= 5.1.2, development)
+  activesupport (= 5.1.2)
+  rack (~> 2.0)
+  rack-test (~> 0.6.3)
+  rails-dom-testing (~> 2.0)
+  rails-html-sanitizer (>= 1.0.2, ~> 1.0)
+
+Gem actionpack-5.1.4
+  actionview (= 5.1.4)
+  activemodel (= 5.1.4, development)
+  activesupport (= 5.1.4)
+  rack (~> 2.0)
+  rack-test (>= 0.6.3)
+  rails-dom-testing (~> 2.0)
+  rails-html-sanitizer (>= 1.0.2, ~> 1.0)
+
+Gem actionview-5.1.1
+  actionpack (= 5.1.1, development)
+  activemodel (= 5.1.1, development)
+  activesupport (= 5.1.1)
+  builder (~> 3.1)
+  erubi (~> 1.4)
+  rails-dom-testing (~> 2.0)
+  rails-html-sanitizer (>= 1.0.3, ~> 1.0)
+
+Gem actionview-5.1.2
+  actionpack (= 5.1.2, development)
+  activemodel (= 5.1.2, development)
+  activesupport (= 5.1.2)
+  builder (~> 3.1)
+  erubi (~> 1.4)
+  rails-dom-testing (~> 2.0)
+  rails-html-sanitizer (>= 1.0.3, ~> 1.0)
+
+Gem actionview-5.1.4
+  actionpack (= 5.1.4, development)
+  activemodel (= 5.1.4, development)
+  activesupport (= 5.1.4)
+  builder (~> 3.1)
+  erubi (~> 1.4)
+  rails-dom-testing (~> 2.0)
+  rails-html-sanitizer (>= 1.0.3, ~> 1.0)
+
+Gem activejob-5.1.1
+  activesupport (= 5.1.1)
+  globalid (>= 0.3.6)
+
+Gem activejob-5.1.2
+  activesupport (= 5.1.2)
+  globalid (>= 0.3.6)
+
+Gem activejob-5.1.4
+  activesupport (= 5.1.4)
+  globalid (>= 0.3.6)
+
+Gem activemodel-5.1.1
+  activesupport (= 5.1.1)
+
+Gem activemodel-5.1.2
+  activesupport (= 5.1.2)
+
+Gem activemodel-5.1.4
+  activesupport (= 5.1.4)
+
+Gem activerecord-5.1.1
+  activemodel (= 5.1.1)
+  activesupport (= 5.1.1)
+  arel (~> 8.0)
+
+Gem activerecord-5.1.2
+  activemodel (= 5.1.2)
+  activesupport (= 5.1.2)
+  arel (~> 8.0)
+
+Gem activerecord-5.1.4
+  activemodel (= 5.1.4)
+  activesupport (= 5.1.4)
+  arel (~> 8.0)
+
+Gem activesupport-5.1.1
+  concurrent-ruby (>= 1.0.2, ~> 1.0)
+  i18n (~> 0.7)
+  minitest (~> 5.1)
+  tzinfo (~> 1.1)
+
+Gem activesupport-5.1.2
+  concurrent-ruby (>= 1.0.2, ~> 1.0)
+  i18n (~> 0.7)
+  minitest (~> 5.1)
+  tzinfo (~> 1.1)
+
+Gem activesupport-5.1.4
+  concurrent-ruby (>= 1.0.2, ~> 1.0)
+  i18n (~> 0.7)
+  minitest (~> 5.1)
+  tzinfo (~> 1.1)
+
+Gem addressable-2.5.1
+  bundler (~> 1.0, development)
+  public_suffix (>= 2.0.2, ~> 2.0)
+
+Gem addressable-2.5.2
+  bundler (~> 1.0, development)
+  public_suffix (< 4.0, >= 2.0.2)
+
+Gem arel-8.0.0
+  minitest (~> 5.4, development)
+  rake (>= 0, development)
+  rdoc (~> 4.0, development)
+
+Gem arel-9.0.0
+  concurrent-ruby (~> 1.0, development)
+  minitest (~> 5.4, development)
+  rake (>= 0, development)
+  rdoc (~> 4.0, development)
+
+Gem autoprefixer-rails-7.1.2.3
+  compass (>= 0, development)
+  execjs (>= 0)
+  rails (>= 0, development)
+  rake (>= 0, development)
+  rspec-rails (>= 0, development)
+
+Gem autoprefixer-rails-7.2.5
+  compass (>= 0, development)
+  execjs (>= 0)
+  rails (>= 0, development)
+  rake (>= 0, development)
+  rspec-rails (>= 0, development)
+
+Gem awesome_print-1.8.0
+  appraisal (>= 0, development)
+  codeclimate-test-reporter (>= 0, development)
+  fakefs (>= 0.2.1, development)
+  nokogiri (>= 1.6.5, development)
+  rspec (>= 3.0.0, development)
+  simplecov (>= 0, development)
+  sqlite3 (>= 0, development)
+
+Gem bcrypt-3.1.11
+  rake-compiler (~> 0.9.2, development)
+  rdoc (~> 3.12, development)
+  rspec (>= 3, development)
+
+Gem bigdecimal-1.3.0
+  minitest (~> 4.7.5, development)
+  rake (~> 10.0, development)
+  rake-compiler (~> 0.9, development)
+
+Gem bigdecimal-1.3.4
+  minitest (~> 4.7.5, development)
+  pry (>= 0, development)
+  rake (~> 10.0, development)
+  rake-compiler (>= 0.9, development)
+  rake-compiler-dock (>= 0.6.1, development)
+
+Gem bindex-0.5.0
+  bundler (>= 0, development)
+  minitest (~> 5.4, development)
+  rake (>= 0, development)
+  rake-compiler (>= 0, development)
+
+Gem bootstrap-sass-3.3.7
+  actionpack (>= 4.1.5, development)
+  activesupport (>= 4.1.5, development)
+  autoprefixer-rails (>= 5.2.1)
+  capybara (>= 2.5.0, development)
+  jquery-rails (>= 3.1.0, development)
+  json (>= 1.8.1, development)
+  minitest (~> 5.8, development)
+  minitest-reporters (~> 1.1, development)
+  poltergeist (>= 0, development)
+  sass (>= 3.3.4)
+  slim-rails (>= 0, development)
+  sprockets-rails (>= 2.1.3, development)
+  term-ansicolor (>= 0, development)
+  uglifier (>= 0, development)
+
+Gem builder-3.2.3
+
+Gem bundler-1.15.3
+  automatiek (~> 0.1.0, development)
+  mustache (= 0.99.6, development)
+  rake (~> 10.0, development)
+  rdiscount (~> 2.2, development)
+  ronn (~> 0.7.3, development)
+  rspec (~> 3.5, development)
+
+Gem bundler-1.16.1
+  automatiek (~> 0.1.0, development)
+  mustache (= 0.99.6, development)
+  rake (~> 10.0, development)
+  rdiscount (~> 2.2, development)
+  ronn (~> 0.7.3, development)
+  rspec (~> 3.6, development)
+
+Gem byebug-9.0.6
+  bundler (~> 1.7, development)
+
+Gem byebug-10.0.0
+  bundler (~> 1.7, development)
+
+Gem capybara-2.14.4
+  addressable (>= 0)
+  cucumber (>= 0.10.5, development)
+  erubi (>= 0, development)
+  fuubar (>= 0.0.1, development)
+  launchy (>= 2.0.4, development)
+  mime-types (>= 1.16)
+  minitest (>= 0, development)
+  nokogiri (>= 1.3.3)
+  pry (>= 0, development)
+  puma (>= 0, development)
+  rack (>= 1.0.0)
+  rack-test (>= 0.5.4)
+  rake (>= 0, development)
+  rspec (>= 2.2.0, development)
+  selenium-webdriver (!= 3.4.1, < 4.0, >= 2.0, development)
+  sinatra (>= 0.9.4, development)
+  xpath (~> 2.0)
+  yard (>= 0.5.8, development)
+
+Gem capybara-2.17.0
+  addressable (>= 0)
+  cucumber (>= 0.10.5, development)
+  erubi (>= 0, development)
+  fuubar (>= 0.0.1, development)
+  launchy (>= 2.0.4, development)
+  mini_mime (>= 0.1.3)
+  minitest (>= 0, development)
+  nokogiri (>= 1.3.3)
+  pry (>= 0, development)
+  puma (>= 0, development)
+  rack (>= 1.0.0)
+  rack-test (>= 0.5.4)
+  rake (>= 0, development)
+  rspec (>= 2.2.0, development)
+  selenium-webdriver (!= 3.4.1, < 4.0, >= 2.0, development)
+  sinatra (>= 0.9.4, development)
+  xpath (< 4.0, >= 2.0)
+  yard (>= 0.5.8, development)
+
+Gem chartkick-2.2.4
+  bundler (~> 1.3, development)
+  minitest (>= 0, development)
+  rake (>= 0, development)
+
+Gem chartkick-2.2.5
+  bundler (~> 1.3, development)
+  minitest (>= 0, development)
+  rake (>= 0, development)
+
+Gem childprocess-0.7.1
+  coveralls (< 1.0, development)
+  ffi (>= 1.0.11, ~> 1.0)
+  rake (< 12.0, development)
+  rspec (~> 3.0, development)
+  yard (~> 0.0, development)
+
+Gem childprocess-0.8.0
+  coveralls (< 1.0, development)
+  ffi (>= 1.0.11, ~> 1.0)
+  rake (< 12.0, development)
+  rspec (~> 3.0, development)
+  yard (~> 0.0, development)
+
+Gem coffee-rails-4.2.2
+  coffee-script (>= 2.2.0)
+  railties (>= 4.0.0)
+
+Gem coffee-script-2.4.1
+  coffee-script-source (>= 0)
+  execjs (>= 0)
+  json (>= 0, development)
+  rake (>= 0, development)
+
+Gem coffee-script-source-1.12.2
+
+Gem concurrent-ruby-1.0.5
+
+Gem crass-1.0.3
+  minitest (~> 5.0.8, development)
+  rake (~> 10.1.0, development)
+
+Gem devise-4.3.0
+  bcrypt (~> 3.0)
+  orm_adapter (~> 0.1)
+  railties (< 5.2, >= 4.1.0)
+  responders (>= 0)
+  warden (~> 1.2.3)
+
+Gem devise-4.4.1
+  bcrypt (~> 3.0)
+  orm_adapter (~> 0.1)
+  railties (< 5.2, >= 4.1.0)
+  responders (>= 0)
+  warden (~> 1.2.3)
+
+Gem did_you_mean-1.1.0
+  bundler (>= 0, development)
+  minitest (>= 0, development)
+  rake (>= 0, development)
+
+Gem dotenv-0.10.0
+  rake (>= 0, development)
+  rspec (>= 0, development)
+
+Gem dotenv-2.2.1
+  rake (>= 0, development)
+  rspec (>= 0, development)
+  rubocop (~> 0.40.0, development)
+
+Gem dotenv-rails-2.2.1
+  dotenv (= 2.2.1)
+  railties (< 5.2, >= 3.2)
+  spring (>= 0, development)
+
+Gem erubi-1.6.1
+  minitest (>= 0, development)
+
+Gem erubi-1.7.0
+  minitest (>= 0, development)
+
+Gem execjs-2.7.0
+  rake (>= 0, development)
+
+Gem faraday-0.12.2
+  multipart-post (< 3, >= 1.2)
+
+Gem faraday-0.14.0
+  multipart-post (< 3, >= 1.2)
+
+Gem ffi-1.9.18
+  rake (~> 10.1, development)
+  rake-compiler (~> 1.0, development)
+  rake-compiler-dock (~> 0.6.0, development)
+  rspec (~> 2.14.1, development)
+  rubygems-tasks (~> 0.2.4, development)
+
+Gem forecast_io-2.0.1
+  faraday (>= 0)
+  hashie (>= 0)
+  multi_json (>= 0)
+  rake (>= 0, development)
+  rspec (>= 0, development)
+  typhoeus (>= 0, development)
+  vcr (>= 0, development)
+
+Gem forecast_io-2.0.2
+  faraday (>= 0)
+  hashie (>= 0)
+  multi_json (>= 0)
+  rake (>= 0, development)
+  rspec (>= 0, development)
+  typhoeus (>= 0, development)
+  vcr (>= 0, development)
+
+Gem globalid-0.4.0
+  activesupport (>= 4.2.0)
+  rake (>= 0, development)
+
+Gem globalid-0.4.1
+  activesupport (>= 4.2.0)
+  rake (>= 0, development)
+
+Gem groupdate-3.2.0
+  activerecord (>= 0, development)
+  activesupport (>= 3)
+  bundler (~> 1.3, development)
+  minitest (>= 0, development)
+  mysql2 (~> 0.3.20, development)
+  pg (>= 0, development)
+  rake (>= 0, development)
+  sqlite3 (>= 0, development)
+
+Gem haml-5.0.1
+  minitest (>= 4.0, development)
+  nokogiri (>= 0, development)
+  rails (>= 4.0.0, development)
+  rbench (>= 0, development)
+  temple (>= 0.8.0)
+  tilt (>= 0)
+
+Gem haml-5.0.4
+  minitest (>= 4.0, development)
+  nokogiri (>= 0, development)
+  rails (>= 4.0.0, development)
+  rbench (>= 0, development)
+  temple (>= 0.8.0)
+  tilt (>= 0)
+
+Gem hashie-3.5.6
+  rake (< 11, development)
+  rspec (~> 3.0, development)
+  rspec-pending_for (~> 0.1, development)
+
+Gem hashie-3.5.7
+  rake (< 11, development)
+  rspec (~> 3.0, development)
+  rspec-pending_for (~> 0.1, development)
+
+Gem httparty-0.8.3
+  multi_json (~> 1.0)
+  multi_xml (>= 0)
+
+Gem httparty-0.15.6
+  multi_xml (>= 0.5.2)
+
+Gem i18n-0.8.6
+
+Gem i18n-0.9.3
+  concurrent-ruby (~> 1.0)
+
+Gem io-console-0.4.6
+
+Gem jbuilder-2.7.0
+  activesupport (>= 4.2.0)
+  multi_json (>= 1.2)
+
+Gem jquery-0.0.1
+  nokogiri (~> 1.6.1, development)
+  rake (>= 0, development)
+
+Gem jquery-rails-4.3.1
+  rails-dom-testing (< 3, >= 1)
+  railties (>= 4.2.0)
+  thor (< 2.0, >= 0.14)
+
+Gem json-2.0.2
+  rake (>= 0, development)
+  test-unit (~> 2.0, development)
+
+Gem json-2.1.0
+  rake (>= 0, development)
+  test-unit (~> 2.0, development)
+
+Gem listen-3.1.5
+  bundler (~> 1.12, development)
+  rb-fsevent (>= 0.9.4, ~> 0.9)
+  rb-inotify (>= 0.9.7, ~> 0.9)
+  ruby_dep (~> 1.2)
+
+Gem loofah-2.0.3
+  hoe (~> 3.13, development)
+  hoe-bundler (>= 0, development)
+  hoe-debugging (>= 0, development)
+  hoe-gemspec (>= 0, development)
+  hoe-git (>= 0, development)
+  json (>= 0, development)
+  minitest (~> 2.2, development)
+  nokogiri (>= 1.5.9)
+  rake (>= 0.8, development)
+  rdoc (~> 4.0, development)
+  rr (~> 1.1.0, development)
+
+Gem loofah-2.1.1
+  concourse (>= 0.14.0, development)
+  crass (~> 1.0.2)
+  hoe (~> 3.16, development)
+  hoe-bundler (>= 0, development)
+  hoe-debugging (>= 0, development)
+  hoe-gemspec (>= 0, development)
+  hoe-git (>= 0, development)
+  json (>= 0, development)
+  minitest (~> 2.2, development)
+  nokogiri (>= 1.5.9)
+  rake (>= 0.8, development)
+  rdoc (~> 4.0, development)
+  rr (~> 1.2.0, development)
+
+Gem mail-2.6.6
+  bundler (>= 1.0.3, development)
+  mime-types (< 4, >= 1.16)
+  rake (> 0.8.7, development)
+  rdoc (>= 0, development)
+  rspec (~> 3.0, development)
+
+Gem mail-2.7.0
+  bundler (>= 1.0.3, development)
+  mini_mime (>= 0.1.1)
+  rake (> 0.8.7, development)
+  rdoc (>= 0, development)
+  rspec (~> 3.0, development)
+
+Gem method_source-0.8.2
+  bacon (~> 1.1.0, development)
+  rake (~> 0.9, development)
+
+Gem method_source-0.9.0
+  rake (~> 0.9, development)
+  rspec (~> 3.6, development)
+
+Gem mime-types-3.1
+  fivemat (~> 1.3, development)
+  hoe (~> 3.15, development)
+  hoe-doofus (~> 1.0, development)
+  hoe-gemspec2 (~> 1.1, development)
+  hoe-git (~> 1.6, development)
+  hoe-rubygems (~> 1.0, development)
+  hoe-travis (~> 1.2, development)
+  mime-types-data (~> 3.2015)
+  minitest (~> 5.9, development)
+  minitest-autotest (~> 1.0, development)
+  minitest-bonus-assertions (~> 2.0, development)
+  minitest-focus (~> 1.0, development)
+  minitest-hooks (~> 1.4, development)
+  minitest-rg (~> 5.2, development)
+  rake (~> 10.0, development)
+  rdoc (~> 4.0, development)
+  simplecov (~> 0.7, development)
+
+Gem mime-types-data-3.2016.0521
+  hoe (~> 3.15, development)
+  hoe-doofus (~> 1.0, development)
+  hoe-gemspec2 (~> 1.1, development)
+  hoe-git (~> 1.6, development)
+  hoe-rubygems (~> 1.0, development)
+  mime-types (~> 3.0, development)
+  nokogiri (~> 1.6, development)
+  rake (~> 10.0, development)
+  rdoc (~> 4.0, development)
+
+Gem mini_mime-1.0.0
+  bundler (~> 1.13, development)
+  minitest (~> 5.0, development)
+  rake (~> 10.0, development)
+
+Gem mini_portile2-2.2.0
+  bundler (~> 1.7, development)
+  concourse (~> 0.12, development)
+  minitar (~> 0.5, development)
+  minitest (~> 5.8, development)
+  minitest-hooks (~> 1.4, development)
+  rake (~> 12.0, development)
+
+Gem mini_portile2-2.3.0
+  bundler (~> 1.7, development)
+  concourse (~> 0.12, development)
+  minitar (~> 0.5, development)
+  minitest (~> 5.8, development)
+  minitest-hooks (~> 1.4, development)
+  rake (~> 12.0, development)
+
+Gem minitest-5.10.1
+  hoe (~> 3.15, development)
+  rdoc (~> 4.0, development)
+
+Gem minitest-5.10.3
+  hoe (~> 3.16, development)
+  rdoc (~> 4.0, development)
+
+Gem minitest-5.11.3
+  hoe (~> 3.16, development)
+  rdoc (~> 4.0, development)
+
+Gem multi_json-1.12.1
+  bundler (~> 1.0, development)
+
+Gem multi_json-1.13.1
+  bundler (~> 1.0, development)
+
+Gem multi_xml-0.6.0
+  bundler (~> 1.0, development)
+
+Gem multipart-post-2.0.0
+
+Gem mysql2-0.4.8
+
+Gem mysql2-0.4.10
+
+Gem nest_api-0.0.2
+  httparty (>= 0)
+
+Gem nest_thermostat-0.0.4
+  awesome_print (>= 0, development)
+  dotenv (>= 0, development)
+  httparty (~> 0.8.3)
+  pry (>= 0, development)
+  rspec (~> 2.10, development)
+
+Gem net-telnet-0.1.1
+  bundler (~> 1.9, development)
+  rake (~> 10.0, development)
+
+Gem nio4r-2.1.0
+  bundler (>= 0, development)
+  rake (>= 0, development)
+
+Gem nio4r-2.2.0
+  bundler (>= 0, development)
+  rake (>= 0, development)
+
+Gem nokogiri-1.8.0
+  concourse (~> 0.11, development)
+  hoe (~> 3.16, development)
+  hoe-bundler (~> 1.2.0, development)
+  hoe-debugging (~> 1.3.0, development)
+  hoe-gemspec (~> 1.0.0, development)
+  hoe-git (~> 1.6.0, development)
+  mini_portile2 (~> 2.2.0)
+  minitest (~> 5.8.4, development)
+  racc (~> 1.4.14, development)
+  rake (~> 12.0, development)
+  rake-compiler (~> 1.0.3, development)
+  rake-compiler-dock (~> 0.6.0, development)
+  rdoc (~> 4.0, development)
+  rexical (~> 1.0.5, development)
+
+Gem nokogiri-1.8.2
+  concourse (~> 0.15, development)
+  hoe (~> 3.16, development)
+  hoe-bundler (~> 1.2, development)
+  hoe-debugging (~> 1.4, development)
+  hoe-gemspec (~> 1.0, development)
+  hoe-git (~> 1.6, development)
+  mini_portile2 (~> 2.3.0)
+  minitest (~> 5.8.4, development)
+  racc (~> 1.4.14, development)
+  rake (~> 12.0, development)
+  rake-compiler (~> 1.0.3, development)
+  rake-compiler-dock (~> 0.6.2, development)
+  rdoc (~> 4.0, development)
+  rexical (~> 1.0.5, development)
+
+Gem openssl-2.0.2
+  rake (>= 0, development)
+  rake-compiler (>= 0, development)
+  rdoc (>= 0, development)
+  test-unit (~> 3.0, development)
+
+Gem openssl-2.1.0
+  rake (>= 0, development)
+  rake-compiler (>= 0, development)
+  rdoc (>= 0, development)
+  test-unit (~> 3.0, development)
+
+Gem orm_adapter-0.5.0
+  activerecord (>= 3.2.15, development)
+  bson_ext (>= 1.3.0, development)
+  bundler (>= 1.0.0, development)
+  datamapper (>= 1.0, development)
+  dm-active_model (>= 1.0, development)
+  dm-sqlite-adapter (>= 1.0, development)
+  git (>= 1.2.5, development)
+  mongo_mapper (~> 0.11.0, development)
+  mongoid (~> 2.8.0, development)
+  rake (>= 0.8.7, development)
+  rspec (>= 2.4.0, development)
+  sqlite3 (>= 1.3.2, development)
+  yard (>= 0.6.0, development)
+
+Gem pg-0.21.0
+  hoe (~> 3.16, development)
+  hoe-bundler (~> 1.0, development)
+  hoe-deveiate (~> 0.9, development)
+  hoe-highline (~> 0.2, development)
+  hoe-mercurial (~> 1.4, development)
+  rake-compiler (~> 1.0, development)
+  rake-compiler-dock (~> 0.6, development)
+  rdoc (~> 5.1, development)
+  rspec (~> 3.5, development)
+
+Gem pg-1.0.0
+  hoe (~> 3.16, development)
+  hoe-bundler (~> 1.0, development)
+  hoe-deveiate (~> 0.9, development)
+  hoe-highline (~> 0.2, development)
+  hoe-mercurial (~> 1.4, development)
+  rake-compiler (~> 1.0, development)
+  rake-compiler-dock (>= 0.6.2, ~> 0.6, development)
+  rdoc (~> 5.1, development)
+  rspec (~> 3.5, development)
+
+Gem pickadate-rails-3.5.6.0
+  bundler (~> 1.3, development)
+  railties (>= 3.1.0)
+  rake (>= 0, development)
+
+Gem power_assert-0.4.1
+  rake (>= 0, development)
+  simplecov (>= 0, development)
+  test-unit (>= 0, development)
+
+Gem power_assert-1.1.1
+  bundler (>= 0, development)
+  byebug (>= 0, development)
+  pry (>= 0, development)
+  rake (>= 0, development)
+  simplecov (>= 0, development)
+  test-unit (>= 0, development)
+
+Gem psych-2.2.2
+  minitest (~> 5.0, development)
+  rake-compiler (>= 0.4.1, development)
+
+Gem psych-3.0.2
+  minitest (~> 5.0, development)
+  rake-compiler (>= 0.4.1, development)
+  rake-compiler-dock (>= 0.6.1, development)
+
+Gem public_suffix-2.0.5
+  mocha (>= 0, development)
+  rake (>= 0, development)
+  yard (>= 0, development)
+
+Gem public_suffix-3.0.1
+  mocha (>= 0, development)
+  rake (>= 0, development)
+  yard (>= 0, development)
+
+Gem puma-3.9.1
+  hoe (~> 3.15, development)
+  rdoc (~> 4.0, development)
+
+Gem puma-3.11.2
+
+Gem rack-2.0.3
+  concurrent-ruby (>= 0, development)
+  minitest (~> 5.0, development)
+  minitest-sprint (>= 0, development)
+  rake (>= 0, development)
+
+Gem rack-2.0.4
+  minitest (~> 5.0, development)
+  minitest-sprint (>= 0, development)
+  rake (>= 0, development)
+
+Gem rack-test-0.6.3
+  rack (>= 1.0)
+
+Gem rack-test-0.8.2
+  codeclimate-test-reporter (~> 0.6, development)
+  rack (< 3, >= 1.0)
+  rake (~> 12.0, development)
+  rdoc (~> 5.1, development)
+  rspec (~> 3.6, development)
+  rubocop (< 0.50, >= 0.49, development)
+  sinatra (< 3, >= 1.0, development)
+  thor (~> 0.19, development)
+
+Gem rails-5.1.1
+  actioncable (= 5.1.1)
+  actionmailer (= 5.1.1)
+  actionpack (= 5.1.1)
+  actionview (= 5.1.1)
+  activejob (= 5.1.1)
+  activemodel (= 5.1.1)
+  activerecord (= 5.1.1)
+  activesupport (= 5.1.1)
+  bundler (< 2.0, >= 1.3.0)
+  railties (= 5.1.1)
+  sprockets-rails (>= 2.0.0)
+
+Gem rails-5.1.2
+  actioncable (= 5.1.2)
+  actionmailer (= 5.1.2)
+  actionpack (= 5.1.2)
+  actionview (= 5.1.2)
+  activejob (= 5.1.2)
+  activemodel (= 5.1.2)
+  activerecord (= 5.1.2)
+  activesupport (= 5.1.2)
+  bundler (< 2.0, >= 1.3.0)
+  railties (= 5.1.2)
+  sprockets-rails (>= 2.0.0)
+
+Gem rails-5.1.4
+  actioncable (= 5.1.4)
+  actionmailer (= 5.1.4)
+  actionpack (= 5.1.4)
+  actionview (= 5.1.4)
+  activejob (= 5.1.4)
+  activemodel (= 5.1.4)
+  activerecord (= 5.1.4)
+  activesupport (= 5.1.4)
+  bundler (>= 1.3.0)
+  railties (= 5.1.4)
+  sprockets-rails (>= 2.0.0)
+
+Gem rails-dom-testing-2.0.3
+  activesupport (>= 4.2.0)
+  bundler (>= 1.3, development)
+  minitest (>= 0, development)
+  nokogiri (>= 1.6)
+  rake (>= 0, development)
+
+Gem rails-html-sanitizer-1.0.3
+  bundler (~> 1.3, development)
+  loofah (~> 2.0)
+  minitest (>= 0, development)
+  rails-dom-testing (>= 0, development)
+  rake (>= 0, development)
+
+Gem railties-5.1.1
+  actionpack (= 5.1.1)
+  actionview (= 5.1.1, development)
+  activesupport (= 5.1.1)
+  method_source (>= 0)
+  rake (>= 0.8.7)
+  thor (< 2.0, >= 0.18.1)
+
+Gem railties-5.1.2
+  actionpack (= 5.1.2)
+  actionview (= 5.1.2, development)
+  activesupport (= 5.1.2)
+  method_source (>= 0)
+  rake (>= 0.8.7)
+  thor (< 2.0, >= 0.18.1)
+
+Gem railties-5.1.4
+  actionpack (= 5.1.4)
+  actionview (= 5.1.4, development)
+  activesupport (= 5.1.4)
+  method_source (>= 0)
+  rake (>= 0.8.7)
+  thor (< 2.0, >= 0.18.1)
+
+Gem rake-12.0.0
+  bundler (>= 0, development)
+  minitest (>= 0, development)
+  rdoc (>= 0, development)
+
+Gem rake-12.3.0
+  bundler (>= 0, development)
+  coveralls (>= 0, development)
+  minitest (>= 0, development)
+  rdoc (>= 0, development)
+  rubocop (>= 0, development)
+
+Gem rb-fsevent-0.10.2
+  bundler (~> 1.0, development)
+  guard-rspec (~> 4.2, development)
+  rake (~> 12.0, development)
+  rspec (~> 3.6, development)
+
+Gem rb-inotify-0.9.10
+  bundler (~> 1.3, development)
+  ffi (< 2, >= 0.5.0)
+  rake (< 13, >= 10.5.0, development)
+  rspec (~> 3.4, development)
+
+Gem rdoc-5.0.0
+  kpeg (>= 0, development)
+  minitest (~> 4, development)
+  racc (> 1.4.10, development)
+  rake (>= 0, development)
+
+Gem responders-2.4.0
+  actionpack (< 5.3, >= 4.2.0)
+  railties (< 5.3, >= 4.2.0)
+
+Gem ruby_dep-1.5.0
+  bundler (~> 1.12, development)
+
+Gem rubyzip-1.2.1
+  coveralls (~> 0.7, development)
+  minitest (~> 5.4, development)
+  pry (~> 0.10, development)
+  rake (~> 10.3, development)
+
+Gem sass-3.5.1
+  minitest (>= 5, development)
+  redcarpet (~> 2.3.0, development)
+  sass-listen (~> 4.0.0)
+  yard (~> 0.8.7.6, development)
+
+Gem sass-3.5.5
+  minitest (>= 5, development)
+  nokogiri (~> 1.6.0, development)
+  redcarpet (~> 3.3, development)
+  sass-listen (~> 4.0.0)
+  yard (~> 0.8.7.6, development)
+
+Gem sass-listen-4.0.0
+  bundler (>= 1.3.5, development)
+  rb-fsevent (>= 0.9.4, ~> 0.9)
+  rb-inotify (>= 0.9.7, ~> 0.9)
+
+Gem sass-rails-5.0.6
+  railties (< 6, >= 4.0.0)
+  sass (~> 3.1)
+  sprockets (< 4.0, >= 2.8)
+  sprockets-rails (< 4.0, >= 2.0)
+  sqlite3 (>= 0, development)
+  tilt (< 3, >= 1.1)
+
+Gem sass-rails-5.0.7
+  railties (< 6, >= 4.0.0)
+  sass (~> 3.1)
+  sprockets (< 4.0, >= 2.8)
+  sprockets-rails (< 4.0, >= 2.0)
+  sqlite3 (>= 0, development)
+  tilt (< 3, >= 1.1)
+
+Gem selenium-webdriver-3.4.4
+  childprocess (~> 0.5)
+  rack (~> 1.0, development)
+  rspec (~> 3.0, development)
+  rubyzip (~> 1.0)
+  webmock (~> 2.0, development)
+  yard (~> 0.8.7, development)
+
+Gem selenium-webdriver-3.8.0
+  childprocess (~> 0.5)
+  rack (~> 1.0, development)
+  rspec (~> 3.0, development)
+  rubocop (~> 0.50.0, development)
+  rubyzip (~> 1.0)
+  webmock (~> 2.0, development)
+  yard (~> 0.9.9, development)
+
+Gem spring-2.0.2
+  activesupport (>= 4.2)
+  bump (>= 0, development)
+  rake (>= 0, development)
+
+Gem spring-watcher-listen-2.0.1
+  activesupport (>= 0, development)
+  bundler (~> 1.6, development)
+  listen (< 4.0, >= 2.7)
+  rake (>= 0, development)
+  spring (< 3.0, >= 1.2)
+
+Gem sprockets-3.7.1
+  closure-compiler (~> 1.1, development)
+  coffee-script (~> 2.2, development)
+  coffee-script-source (~> 1.6, development)
+  concurrent-ruby (~> 1.0)
+  eco (~> 1.0, development)
+  ejs (~> 1.0, development)
+  execjs (~> 2.0, development)
+  minitest (~> 5.0, development)
+  nokogiri (~> 1.3, development)
+  rack (< 3, > 1)
+  rack-test (~> 0.6, development)
+  rake (~> 10.0, development)
+  sass (~> 3.1, development)
+  uglifier (~> 2.3, development)
+  yui-compressor (~> 0.12, development)
+
+Gem sprockets-rails-3.2.0
+  actionpack (>= 4.0)
+  activesupport (>= 4.0)
+  railties (>= 4.0, development)
+  rake (>= 0, development)
+  sass (>= 0, development)
+  sprockets (>= 3.0.0)
+  uglifier (>= 0, development)
+
+Gem sprockets-rails-3.2.1
+  actionpack (>= 4.0)
+  activesupport (>= 4.0)
+  railties (>= 4.0, development)
+  rake (>= 0, development)
+  sass (>= 0, development)
+  sprockets (>= 3.0.0)
+  uglifier (>= 0, development)
+
+Gem temple-0.8.0
+  bacon (>= 0, development)
+  erubis (>= 0, development)
+  rake (>= 0, development)
+  tilt (>= 0, development)
+
+Gem test-unit-3.2.3
+  bundler (>= 0, development)
+  kramdown (>= 0, development)
+  packnga (>= 0, development)
+  power_assert (>= 0)
+  rake (>= 0, development)
+  yard (>= 0, development)
+
+Gem test-unit-3.2.7
+  bundler (>= 0, development)
+  kramdown (>= 0, development)
+  packnga (>= 0, development)
+  power_assert (>= 0)
+  rake (>= 0, development)
+  yard (>= 0, development)
+
+Gem thor-0.19.4
+  bundler (~> 1.0, development)
+
+Gem thor-0.20.0
+  bundler (~> 1.0, development)
+
+Gem thread_safe-0.3.6
+  atomic (= 1.1.16, development)
+  rake (< 12.0, development)
+  rspec (~> 3.2, development)
+
+Gem tilt-2.0.7
+
+Gem tilt-2.0.8
+
+Gem turbolinks-5.0.1
+  turbolinks-source (~> 5)
+
+Gem turbolinks-5.1.0
+  turbolinks-source (~> 5.1)
+
+Gem turbolinks-source-5.0.3
+
+Gem turbolinks-source-5.1.0
+
+Gem tzinfo-1.2.3
+  thread_safe (~> 0.1)
+
+Gem tzinfo-1.2.4
+  thread_safe (~> 0.1)
+
+Gem uglifier-3.2.0
+  bundler (~> 1.3, development)
+  execjs (< 3, >= 0.3.0)
+  rake (~> 12.0, development)
+  rspec (~> 3.0, development)
+  sourcemap (~> 0.1.1, development)
+
+Gem uglifier-4.1.5
+  bundler (~> 1.3, development)
+  execjs (< 3, >= 0.3.0)
+  rake (~> 12.0, development)
+  rspec (~> 3.0, development)
+  sourcemap (~> 0.1.1, development)
+
+Gem warden-1.2.7
+  rack (>= 1.0)
+
+Gem web-console-3.5.1
+  actionview (>= 5.0)
+  activemodel (>= 5.0)
+  bindex (>= 0.4.0)
+  railties (>= 5.0)
+
+Gem websocket-driver-0.6.5
+  eventmachine (>= 0, development)
+  permessage_deflate (>= 0, development)
+  rake-compiler (~> 0.8.0, development)
+  rspec (>= 0, development)
+  websocket-extensions (>= 0.1.0)
+
+Gem websocket-driver-0.7.0
+  eventmachine (>= 0, development)
+  permessage_deflate (>= 0, development)
+  rake-compiler (~> 0.8.0, development)
+  rspec (>= 0, development)
+  websocket-extensions (>= 0.1.0)
+
+Gem websocket-extensions-0.1.2
+  rspec (>= 0, development)
+
+Gem websocket-extensions-0.1.3
+  rspec (>= 0, development)
+
+Gem xmlrpc-0.2.1
+  bundler (>= 0, development)
+  rake (>= 0, development)
+  test-unit (>= 0, development)
+
+Gem xmlrpc-0.3.0
+  bundler (>= 0, development)
+  rake (>= 0, development)
+  test-unit (>= 0, development)
+
+Gem xpath-2.1.0
+  nokogiri (~> 1.3)
+  pry (>= 0, development)
+  rake (>= 0, development)
+  rspec (~> 3.0, development)
+  yard (>= 0.5.8, development)
+
+Gem xpath-3.0.0
+  nokogiri (~> 1.8)
+  pry (>= 0, development)
+  rake (>= 0, development)
+  rspec (~> 3.0, development)
+  yard (>= 0.5.8, development)
+

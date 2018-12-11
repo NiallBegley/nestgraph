@@ -6,12 +6,13 @@ class DevicesController < ApplicationController
   def index
     @devices = Device.all
 
+
+    @devices.first.create_new_record
   end
 
   def refresh
-    nest = NestApi::Api.new
 
-    ap nest
+    nest = NestApi::Api.new
 
     @remotedevices   =  nest.get_thermostat_list
 

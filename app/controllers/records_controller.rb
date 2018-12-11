@@ -12,6 +12,7 @@ class RecordsController < ApplicationController
     @device_id = params[:device_id]
 
     partial_records = Record.where(device_id: params[:device_id])
+    
     if params[:filter].nil? || params[:filter].empty? || params[:filter] == "today"
       @records = partial_records.where("created_at >= ?", Time.zone.now.beginning_of_day)
       @selected_filter = "today"
@@ -47,11 +48,9 @@ class RecordsController < ApplicationController
       {name: "External Temperature", data: @records.group(:created_at).maximum(:external_temp)},
       {name: "Int. Humidity", data: @records.group(:created_at).maximum(:humidity)},
       {name: "Ext. Humidity", data: @records.group(:created_at).maximum(:external_humidity)},
-      {name: "Time to Target", data: @records.group(:created_at).maximum(:time_to_target)}
+      {name: "Time to Target", data: @records.group(:created_at).maximum(:time_to_target)},
+      {name: "Heating", data: @records.group(:created_at).maximum(:is_heating)}
     ]
-
-    #,
-    #{name: "Heating On", data: @records.group(:created_at).where(:hvac_state => "heating").select(:hvac_state)}
 
   end
 

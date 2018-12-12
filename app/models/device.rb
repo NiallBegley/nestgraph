@@ -13,16 +13,15 @@ class Device < ApplicationRecord
     record.humidity = api_device.get("humidity")
     record.internal_temp = api_device.get("ambient_temperature_f")
 
-    if api_device.get("hvac_state").eql? "heating"
-      record.is_heating = 60.0
-    else
-      record.is_heating = 0.0
-    end
-
     record.time_to_target = api_device.get("time_to_target")
     record.name = api_device.get("name_long")
-    record.target_temp = api_device.get("target_temperature_f")
-
+    
+    if api_device.get("hvac_state").eql? "heating"
+      record.target_temp = api_device.get("target_temperature_f")
+    else
+      record.target_temp = 0
+    end
+    
     forecast = ForecastIO.forecast(ENV['FORECAST_IO_LATITUDE'].to_f, ENV['FORECAST_IO_LONGITUDE'].to_f)
     # ap forecast
     record.external_temp = forecast["currently"]["temperature"]

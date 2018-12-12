@@ -49,7 +49,7 @@ class RecordsController < ApplicationController
       {name: "Int. Humidity", data: @records.group(:created_at).maximum(:humidity)},
       {name: "Ext. Humidity", data: @records.group(:created_at).maximum(:external_humidity)},
       {name: "Time to Target", data: @records.group(:created_at).maximum(:time_to_target)},
-      {name: "Heating", data: @records.group(:created_at).maximum(:is_heating)}
+      {name: "Heating to Temp", data: @records.group(:created_at).maximum(:target_temp)}
     ]
 
   end

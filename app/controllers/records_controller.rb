@@ -14,7 +14,7 @@ class RecordsController < ApplicationController
     partial_records = Record.where(device_id: params[:device_id])
     
     if params[:filter].nil? || params[:filter].empty? || params[:filter] == "today"
-      @records = partial_records.where("created_at >= ?", Time.zone.now.beginning_of_day)
+      @records = partial_records.where("created_at >= ?", Time.zone.now - 24.hours)
       @selected_filter = "today"
     elsif params[:filter] == "yesterday"
       @selected_filter = "yesterday"

@@ -7,7 +7,7 @@
 
 - buttonclass = "btn btn-sm btn-primary"
 - selectedclass = buttonclass + " active"
-= link_to "Today", records_path(:filter => "today", :device_id => @device_id), :class => @selected_filter == "today" ? selectedclass : buttonclass
+= link_to "Last 24 Hours", records_path(:filter => "today", :device_id => @device_id), :class => @selected_filter == "today" ? selectedclass : buttonclass
 = link_to "Yesterday", records_path(:filter => "yesterday", :device_id => @device_id), :class => @selected_filter == "yesterday" ? selectedclass : buttonclass
 = link_to "Running Week", records_path(:filter => "week", :device_id => @device_id), :class => @selected_filter == "week" ? selectedclass : buttonclass
 = link_to "All", records_path(:filter => "all", :device_id => @device_id), :class => @selected_filter == "all" ? selectedclass : buttonclass

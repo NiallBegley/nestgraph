@@ -54,6 +54,17 @@ class RecordsController < ApplicationController
 
   end
 
+  def api_endpoint
+
+    @device_id = params[:device_id]
+
+    partial_records = Record.where(device_id: params[:device_id])
+
+    respond_to do |format|
+      format.json {render json: partial_records}
+    end
+  end
+
   # GET /records/1
   # GET /records/1.json
   def show

@@ -8,6 +8,10 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
   # config.secret_key = '2c3fd18cf59e90ac509b9054d76fb0cfa31e5b11746f65aebf6007219b12be29d05351261e01681cc056ef7c37a6951a1471e144fb142c1a2d7d060fcfa442b0'
 
+  config.jwt do |jwt|
+    jwt.secret = ENV['JWT_SECRET']
+  end
+
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class

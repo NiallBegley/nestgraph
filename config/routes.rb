@@ -1,7 +1,13 @@
 Rails.application.routes.draw do
   devise_for :users, controllers: { registrations: "registrations"}
+
   root "devices#index"
-  resources :records
+  resources :records do
+    collection do
+      get "api_endpoint"
+    end
+  end
+
   resources :devices do
     collection do
       get "refresh"

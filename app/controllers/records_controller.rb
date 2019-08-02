@@ -58,7 +58,9 @@ class RecordsController < ApplicationController
 
     @device_id = params[:device_id]
 
-    partial_records = Record.where(device_id: params[:device_id])
+    partial_records = Record.where(device_id: params[:device_id]).where("created_at >= ? and created_at <= ?",
+      Time.zone.parse(params[:start]).beginning_of_day,
+      Time.zone.parse(params[:end]).end_of_day)
 
     respond_to do |format|
       format.json {render json: partial_records}

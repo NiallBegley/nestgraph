@@ -10,6 +10,14 @@ class DevicesController < ApplicationController
     @devices.first.create_new_record
   end
 
+  def api_endpoint
+    devices = Device.all
+    
+    respond_to do |format|
+      format.json {render json: devices}
+    end
+  end
+
   def refresh
 
     nest = NestApi::Api.new

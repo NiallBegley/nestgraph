@@ -10,6 +10,7 @@ Devise.setup do |config|
 
   config.jwt do |jwt|
     jwt.secret = ENV['JWT_SECRET']
+    jwt.expiration_time = 604800
   end
 
   # ==> Mailer Configuration

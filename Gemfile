@@ -41,6 +41,7 @@ gem 'pickadate-rails'
 gem 'jquery-rails'
 gem 'devise'
 gem 'devise-jwt', '~> 0.5.9'
+gem 'unicorn'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'

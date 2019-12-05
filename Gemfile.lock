@@ -142,7 +142,7 @@ GEM
     pickadate-rails (3.5.6.0)
       railties (>= 3.1.0)
     public_suffix (3.0.3)
-    puma (3.12.0)
+    puma (3.12.2)
     rack (2.0.6)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -250,7 +250,7 @@ DEPENDENCIES
   nest_api!
   nest_thermostat
   pickadate-rails
-  puma (~> 3.7)
+  puma (~> 3.12)
   rails (~> 5.1.2)
   sass-rails (~> 5.0)
   selenium-webdriver
